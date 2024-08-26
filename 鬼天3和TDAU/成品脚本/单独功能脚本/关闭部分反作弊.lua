@@ -1,0 +1,5 @@
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(':Quit',gg.TYPE_BYTE,false,gg.SIGN_EQUAL,0, -1)
+gg.getResults(100000)
+gg.editAll('0',gg.TYPE_BYTE)

@@ -1,0 +1,98 @@
+function：定义新方法
+1. gg.alert 弹出提示窗口
+2. gg.toast 屏幕下方弹出提示条( 会自动消失 )
+3. gg.prompt 弹出带有控件的提示窗口
+4. gg.choice 弹出单选列表窗口
+5. gg.clearResults 清除搜索结果
+6. gg.editAll 修改搜索结果
+7. gg.getFile 获取当前脚本所在目录
+8. gg.getResults 获取搜索结果
+9. gg.getResultCount 获取搜索结果数量
+10. gg.setRanges 设置搜索内存
+11. gg.isVisible 判断GG界面是否可见
+12. gg.multiChoice 弹出多选列表窗口
+13. gg.processKill 结束当前选定应用
+14. gg.searchNumber 搜索数据 (重要)
+15. gg.setVisible 设置GG界面是否可见
+16.getline()读取行数
+17.getlocale0荻取地值
+18.getRanges()洪取内存区域内的
+19.getRangeslist)荻取内存区域列表
+20.getResultCount)荻取結果計数
+21.getResultso :荻取結果井加載
+22.getSpeedo荻取加速
+23.getTargetInfo荻取目棕信息
+24.getTargetPackage0荻取迸程包名
+
+GG内存代码：
+A内存：gg.REGION_ANONYMOUS
+CA内存：gg.REGION_C_ALLOC
+B内存：gg.REGION_BAD
+Xs内存：gg.REGION_CODE_SYS
+Xa内存：gg.REGION_CODE_APP
+O内存：gg.REGION_OTHER
+Ch内存：gg.REGION_C_HEAP
+Jh内存：gg.REGION_JAVA_HEAP
+J内存：gg.REGION_JAVA
+Cd内存：gg.REGION_C_DATA
+S内存：gg.REGION_STACK
+
+GG类型代码：
+A类：gg.TYPE_AUTO
+F类：gg.TYPE_FLOAT
+D类：gg.TYPE_DWORD
+E类：gg.TYPE_DOUBLE
+B类：gg.TYPE_BYTE
+Q类：gg.TYPE_QWORD
+W类：gg.TYPE_WORD
+
+
+Thumd操作码//gg勾选这个
+----------------------
+数据类型参考:
+    D= 4   
+    E= 64
+    Q= 32   
+    F= 16
+    W= 2   
+    B= 1
+    A= 127   
+    X= 8
+
+    内存范围参考:
+    Jh=2   
+    Ch=1   
+    Ca=4   
+    Cd=8 
+    Cb=16   
+    PS=262144   
+    A=32 
+    默认=262207  
+    J=65536  
+    S=64 
+    As=524288   
+    O=-1032320   
+    B=131072   
+    Xa=16384   
+    Xs=32768
+ ------ --------
+ Jh内存:['REGION_JAVA_HEAP'] = 2,
+Ch内存:['REGION_C_HEAP'] = 1,
+Ca内存:['REGION_C_ALLOC'] = 4,
+Cd内存:['REGION_C_DATA'] = 8,
+Cb内存:['REGION_C_BSS'] = 16,
+Ps内存:['REGION_PPSSPP'] = 262144,
+A内存:['REGION_ANONYMOUS'] = 32,
+J内存:['REGION_JAVA'] = 65536,
+S内存:['REGION_STACK'] = 64,
+As内存:['REGION_ASHMEM'] = 524288,
+V内存:['REGION_VIDEO'] = 1048576,
+O内存['REGION_OTHER'] = -2080896,
+B内存:['REGION_BAD'] = 131072
+Xa内存:['REGION_CODE_APP'] = 16384,
+Xs内存:['REGION_CODE_SYS'] = 32768,//可用于修改器默认内存
+
+
+
+
+	 
